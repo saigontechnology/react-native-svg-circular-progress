@@ -27,6 +27,6 @@ const App = () => {
 ````
 
 ## Props
- * percentage (default: 40) 
+ * percentage (default: 80) 
  * blankColor (default: "#eaeaea") 
  * donutColor (default: "#43cdcf")
