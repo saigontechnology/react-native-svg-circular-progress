@@ -1,6 +1,6 @@
 {
   "name": "react-native-svg-circular-progress",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A circular progress chart using react-native-svg",
   "main": "index.js",
   "scripts": {
