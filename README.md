@@ -2,11 +2,12 @@
 
 A circular progress chart using react-native-svg
 
-![sample <>](https://github.com/stssoftware/react-native-svg-circular-progress/blob/master/Sample.png "Sample")
+![sample <>](https://github.com/stssoftware/react-native-svg-circular-progress/raw/master/Sample.png "Sample")
 
 ## Installation
 ````
 npm install react-native-svg react-native-svg-circular-progress --save
+react-native link
 ````
 
 ## Usage
