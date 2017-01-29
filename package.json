@@ -1,6 +1,6 @@
 {
   "name": "react-native-svg-circular-progress",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A circular progress chart using react-native-svg",
   "main": "index.js",
   "scripts": {
@@ -21,8 +21,7 @@
     "url": "https://github.com/stssoftware/react-native-svg-circular-progress/issues"
   },
   "homepage": "https://github.com/stssoftware/react-native-svg-circular-progress#readme",
-  "dependencies": {
-  },
+  "dependencies": {},
   "peerDependencies": {
     "react": "~15.4.0-rc.4",
     "react-native": "0.40.0",
