@@ -11,7 +11,7 @@ react-native link
 ````
 
 ## Usage
-````
+````jsx
 import {CircularProgress} from 'react-native-svg-circular-progress'
 
 const App = () => {
