@@ -15,14 +15,14 @@ react-native link
 import {CircularProgress} from 'react-native-svg-circular-progress'
 
 const App = () => {
-	const percentage = 40
-	return <View>
-		<CircularProgress percentage={percentage}>
-            <View>
-                <Text>{percentage}%</Text>
-            </View>
-        </CircularProgress>
-	</View>
+  const percentage = 40
+  return <View>
+    <CircularProgress percentage={percentage}>
+      <View>
+        <Text>{percentage}%</Text>
+      </View>
+    </CircularProgress>
+  </View>
 }
 ````
 
