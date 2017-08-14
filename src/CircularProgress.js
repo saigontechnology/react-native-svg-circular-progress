@@ -40,6 +40,7 @@ const CircularProgress = ({
     blankColor = "#eaeaea", 
     donutColor = "#43cdcf",
     fillColor = "white",
+    progressWidth = 35,
     children
 }) => {
     return <View style={styles.base}>
@@ -49,7 +50,7 @@ const CircularProgress = ({
                 d={`M50 50 L50 0 ${generateArc(percentage)} Z`}
                 fill={donutColor}
             />
-            {<Circle cx="50" cy="50" r="35" fill={fillColor}/>}
+            {<Circle cx="50" cy="50" r={progressWidth} fill={fillColor}/>}
         </Svg>
         <View style={styles.textView}>
             {children}
