@@ -38,7 +38,8 @@ function generateArc(percentage){
 const CircularProgress = ({
     percentage = 40, 
     blankColor = "#eaeaea", 
-    donutColor = "#43cdcf", 
+    donutColor = "#43cdcf",
+    fillColor = "white",
     children
 }) => {
     return <View style={styles.base}>
@@ -48,7 +49,7 @@ const CircularProgress = ({
                 d={`M50 50 L50 0 ${generateArc(percentage)} Z`}
                 fill={donutColor}
             />
-            {<Circle cx="50" cy="50" r="35" fill="white"/>}
+            {<Circle cx="50" cy="50" r="35" fill={fillColor}/>}
         </Svg>
         <View style={styles.textView}>
             {children}
