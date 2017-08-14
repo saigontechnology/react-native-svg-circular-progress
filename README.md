@@ -31,3 +31,4 @@ const App = () => {
  * blankColor (default: "#eaeaea") 
  * donutColor (default: "#43cdcf")
  * fillColor (default: "white")
+ * progressWidth (default: 35)
