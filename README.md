@@ -27,8 +27,9 @@ const App = () => {
 ````
 
 ## Props
- * percentage (default: 80) 
- * blankColor (default: "#eaeaea") 
+ * percentage (default: 80)
+ * blankColor (default: "#eaeaea")
  * donutColor (default: "#43cdcf")
  * fillColor (default: "white")
  * progressWidth (default: 35)
+ * size (default: 100)
