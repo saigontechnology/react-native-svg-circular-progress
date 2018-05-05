@@ -7,7 +7,7 @@ A circular progress chart using react-native-svg
 ## Installation
 ````
 npm install react-native-svg react-native-svg-circular-progress --save
-react-native link
+react-native link react-native-svg
 ````
 
 ## Usage
